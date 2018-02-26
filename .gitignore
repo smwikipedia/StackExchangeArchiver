@@ -1,0 +1,4 @@
+bin
+obj
+/StackOverflowArchiver/StackOverflowArchiver/*.user
+/StackOverflowArchiver/*.suo

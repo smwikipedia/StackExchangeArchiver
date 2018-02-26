@@ -17,8 +17,8 @@ namespace StackOverflowArchiver
 
         public Int32 CurrentPageIndex;
 
-        public String UserQuestionListPageUrlTemplate = "https://math.stackexchange.com/users/{0}/{1}?tab=questions&sort=newest&page={2}";
-        public String UserAnswersListPageUrlTemplate = "https://math.stackexchange.com/users/{0}/{1}?tab=answers&sort=newest&page={2}";
+        public String UserQuestionListPageUrlTemplate = "https://stackoverflow.com/users/{0}/{1}?tab=questions&sort=newest&page={2}";
+        public String UserAnswersListPageUrlTemplate = "https://stackoverflow.com/users/{0}/{1}?tab=answers&sort=newest&page={2}";
         public String UserQuestionListPageUrl;
 
         public String NextQuestionListPageFlag = "class=\"page-numbers next\"";
@@ -33,7 +33,7 @@ namespace StackOverflowArchiver
         private static Regex RegexQuestionTitle = new Regex(RegexStringQuestionTitle, RegexOptions.Compiled);
 
 
-        public static String BaseUrl = "https://math.stackexchange.com";
+        public static String BaseUrl = "https://stackoverflow.com";
 
         private List<Question> Questions = new List<Question>();
 

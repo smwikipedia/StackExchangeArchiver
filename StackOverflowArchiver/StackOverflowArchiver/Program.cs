@@ -10,16 +10,6 @@ namespace StackOverflowArchiver
     {
         static void Main(string[] args)
         {
-            //String userName = "smwikipedia";
-            //Int32 userId = 264052;
-            //String archiveFolder = @"c:\d\Archive";
-            //Task t = Task.Factory.StartNew(() => {
-            //    QuestionArchiver qa = new QuestionArchiver(userName, userId, archiveFolder);
-            //    qa.ArchiveQuestions().Wait();
-            //});
-
-            //t.Wait();
-
             ArchiveConfig config = new ArchiveConfig();
             config.UserId = Int32.Parse(args[0]);
             config.UserName = args[1];
@@ -49,7 +39,7 @@ namespace StackOverflowArchiver
             }
 
 
-            QuestionArchiver qa = new QuestionArchiver(config); //"smwikipedia", 264052, @"c:\d\Archive"
+            QuestionArchiver qa = new QuestionArchiver(config);
             qa.ArchiveQuestions();
             Console.WriteLine("All done...");
             

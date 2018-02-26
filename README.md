@@ -15,4 +15,4 @@ Usage:
   
   `<ArchiveFolder>`: Path to a local folder to store the archived posts. Requried.
   
-  `<StartPage/EndPage>`: The start and end page number of the question/answer list in the Stack Exchange user activity page. Optional.
+  `<StartPage/EndPage>`: The start and end page number of the question/answer list in the Stack Exchange user activity page. If specified, only the posts within the range will be archived. The archived posts is ordered by date. Optional.

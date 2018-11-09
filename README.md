@@ -9,12 +9,12 @@ Usage:
 
 `StackOverflowArchiver <UserID> <UserName> <q/a> <ArchiveFolder> [StartPage] [EndPage]`
 
-  `<UserID>`: The Stack Exchange site user id. It can be identified from the URL. Requried.
+  `<UserID>`: Required. The Stack Exchange site user id. It can be identified from the URL.
 
-  `<UserName>`: The Stack Exchange site user name. It can be identified from the URL. Requried.
+  `<UserName>`: Requried. The Stack Exchange site user name. It can be identified from the URL.
 
-  `<q/a>`: q for archiving questions, a for answers. Requried.
+  `<q/a>`: Requried. `q` for archiving questions, `a` for answers.
 
-  `<ArchiveFolder>`: Path to a local folder to store the archived posts. Requried.
+  `<ArchiveFolder>`: Requried. Path to a local folder to store the archived posts.
 
-  `<StartPage/EndPage>`: The start and end page number of the question/answer list in the Stack Exchange user activity page. If specified, only the posts within the page range will be archived. The post pages are sorted by date. Optional.
+  `<StartPage/EndPage>`: Optional. The start and end page number of the question/answer list in the Stack Exchange user activity page. If specified, only the posts within the page range will be archived. The post pages are sorted by date.

@@ -1,7 +1,7 @@
 # StackExchangeArchiver
 A tool to archive Stack Exchange sites posts for offline browsing.
 
-If used unchanged, only `stackoverflow.com` is supported. But you can easily change the source code to support other site like math.stackexchange.com. Just change the URL pattern.
+If used unchanged, only `stackoverflow.com` is supported. But you can easily change the source code to support other site like `math.stackexchange.com`. Just change the URL pattern.
 
 This tool archive questions or answers for a specific user. All you need to know is the user ID and the user name.
 
